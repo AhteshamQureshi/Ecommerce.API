@@ -1,0 +1,72 @@
+2026-06-18 11:05:00 [INF] [] Ecommerce API is ready. Navigate to http://localhost:5000
+2026-06-18 11:05:01 [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+2026-06-18 11:05:02 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-06-18 11:05:02 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2026-06-18 11:05:02 [INF] [Microsoft.Hosting.Lifetime] Content root path: C:\Users\MAhtesham.Qureshi\Downloads\Ecommerce-Final\EcommerceLogged
+2026-06-18 11:05:02 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-06-18 11:05:02 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 207.2818ms
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Categories - null null
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce)'
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Ecommerce.Controllers.CategoriesController (Ecommerce).
+2026-06-18 11:05:38 [INF] [Ecommerce.Controllers.CategoriesController] GET /api/categories called
+2026-06-18 11:05:38 [INF] [Ecommerce.Services.CategoryService] Fetching all categories
+2026-06-18 11:05:38 [INF] [Ecommerce.Services.CategoryService] Successfully fetched 6 categories
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Ecommerce.DTOs.CategoryDto, Ecommerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce) in 74.5189ms
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce)'
+2026-06-18 11:05:38 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/Categories responded 200 in 155.2324ms
+2026-06-18 11:05:38 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/api/Categories - 200 null application/json; charset=utf-8 207.2623ms
+2026-06-18 11:06:47 [INF] [] Ecommerce API is ready. Navigate to http://localhost:5000
+2026-06-18 11:06:48 [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+2026-06-18 11:06:48 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-06-18 11:06:48 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2026-06-18 11:06:48 [INF] [Microsoft.Hosting.Lifetime] Content root path: C:\Users\MAhtesham.Qureshi\Downloads\Ecommerce-Final\EcommerceLogged
+2026-06-18 11:06:49 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-06-18 11:06:49 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.6891ms
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Categories - null null
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce)'
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetAll", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Ecommerce.Controllers.CategoriesController (Ecommerce).
+2026-06-18 11:07:05 [INF] [Ecommerce.Controllers.CategoriesController] GET /api/categories called
+2026-06-18 11:07:05 [INF] [Ecommerce.Services.CategoryService] Fetching all categories
+2026-06-18 11:07:05 [INF] [Ecommerce.Services.CategoryService] Successfully fetched 6 categories
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Ecommerce.DTOs.CategoryDto, Ecommerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce) in 62.4648ms
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Ecommerce.Controllers.CategoriesController.GetAll (Ecommerce)'
+2026-06-18 11:07:05 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/Categories responded 200 in 131.6954ms
+2026-06-18 11:07:05 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/api/Categories - 200 null application/json; charset=utf-8 180.1414ms
+2026-06-18 11:18:50 [INF] [] Ecommerce API is ready. Navigate to http://localhost:5000
+2026-06-18 11:18:50 [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+2026-06-18 11:18:50 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-06-18 11:18:50 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2026-06-18 11:18:50 [INF] [Microsoft.Hosting.Lifetime] Content root path: C:\Users\MAhtesham.Qureshi\Downloads\Ecommerce-Final\EcommerceLogged
+2026-06-18 11:19:04 [INF] [Microsoft.Hosting.Lifetime] Application is shutting down...
+2026-06-18 11:19:04 [INF] [] Ecommerce API shutting down
+2026-06-18 11:19:16 [INF] [] Ecommerce API is ready. Navigate to http://localhost:5000
+2026-06-18 11:19:16 [INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5000
+2026-06-18 11:19:16 [INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2026-06-18 11:19:16 [INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2026-06-18 11:19:16 [INF] [Microsoft.Hosting.Lifetime] Content root path: C:\Users\MAhtesham.Qureshi\Downloads\Ecommerce-Final\EcommerceLogged
+2026-06-18 11:19:24 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-06-18 11:19:25 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 490.2855ms
+2026-06-18 11:19:43 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Categories/3 - null null
+2026-06-18 11:19:43 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Ecommerce.Controllers.CategoriesController.GetById (Ecommerce)'
+2026-06-18 11:19:43 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller Ecommerce.Controllers.CategoriesController (Ecommerce).
+2026-06-18 11:19:44 [INF] [Ecommerce.Controllers.CategoriesController] GET /api/categories/3 called
+2026-06-18 11:19:44 [INF] [Ecommerce.Services.CategoryService] Fetching category with ID: 3
+2026-06-18 11:19:44 [INF] [Ecommerce.Services.CategoryService] Successfully fetched category: Books (ID: 3)
+2026-06-18 11:19:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Ecommerce.DTOs.CategoryDto'.
+2026-06-18 11:19:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Ecommerce.Controllers.CategoriesController.GetById (Ecommerce) in 103.2003ms
+2026-06-18 11:19:44 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Ecommerce.Controllers.CategoriesController.GetById (Ecommerce)'
+2026-06-18 11:19:44 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/Categories/3 responded 200 in 192.2116ms
+2026-06-18 11:19:44 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/api/Categories/3 - 200 null application/json; charset=utf-8 264.734ms
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/1.1 GET http://localhost:5000/api/Categories/3 - null null
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Ecommerce.Controllers.CategoriesController.GetById (Ecommerce)'
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetById", controller = "Categories"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller Ecommerce.Controllers.CategoriesController (Ecommerce).
+2026-06-18 11:19:48 [INF] [Ecommerce.Controllers.CategoriesController] GET /api/categories/3 called
+2026-06-18 11:19:48 [INF] [Ecommerce.Services.CategoryService] Fetching category with ID: 3
+2026-06-18 11:19:48 [INF] [Ecommerce.Services.CategoryService] Successfully fetched category: Books (ID: 3)
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Ecommerce.DTOs.CategoryDto'.
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Ecommerce.Controllers.CategoriesController.GetById (Ecommerce) in 57.2066ms
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Ecommerce.Controllers.CategoriesController.GetById (Ecommerce)'
+2026-06-18 11:19:48 [INF] [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/Categories/3 responded 200 in 102.0881ms
+2026-06-18 11:19:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/1.1 GET http://localhost:5000/api/Categories/3 - 200 null application/json; charset=utf-8 182.8037ms
